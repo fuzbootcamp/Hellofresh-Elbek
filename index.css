@@ -1,0 +1,84 @@
+.card{
+    border: none !important;
+    text-align: center;
+    img{
+        width: 120px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+aside{
+    .green{
+        color: #067A46;
+    }
+    button{
+        background-color: #067A46;
+        color: #fff;
+    }
+}
+main{
+    text-align: center;
+
+    button{
+        width: 157px;
+
+    }
+}
+.cook{
+    img{
+        width: 100%;
+    }
+}
+.plans{
+    img{
+        width: 100%;
+    }
+
+}
+footer{
+    p{
+        color: #067A46;
+    }
+    .p{
+      color: black;  
+    }
+
+}
+.f-main{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 50px;
+}
+.item{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+@media (max-width: 700px) {
+    .f-main{
+        grid-template-columns: repeat(4,1fr) ;
+
+    }
+    }
+
+@media (max-width: 600px) {
+    .f-main{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media (max-width: 500px) {
+    .f-main{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media (max-width: 500px) {
+    .f-main{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width: 500px) {
+    .f-main{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
